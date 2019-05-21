@@ -1,0 +1,21 @@
+/*
+  Padding size.
+*/
+
+@each $size in $outline-sizes {
+  .padding-#{$size} {
+    padding: $size;
+  }
+  .padding-t-#{$size} {
+    padding-top: $size;
+  }
+  .padding-r-#{$size} {
+    padding-right: $size;
+  }
+  .padding-b-#{$size} {
+    padding-bottom: $size;
+  }
+  .padding-l-#{$size} {
+    padding-left: $size;
+  }
+}

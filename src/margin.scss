@@ -1,0 +1,21 @@
+/*
+  Margin size.
+*/
+
+@each $size in $outline-sizes {
+  .margin-#{$size} {
+    margin: $size;
+  }
+  .margin-t-#{$size} {
+    margin-top: $size;
+  }
+  .margin-r-#{$size} {
+    margin-right: $size;
+  }
+  .margin-b-#{$size} {
+    margin-bottom: $size;
+  }
+  .margin-l-#{$size} {
+    margin-left: $size;
+  }
+}

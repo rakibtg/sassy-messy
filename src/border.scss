@@ -1,0 +1,42 @@
+/*
+  Border colors.
+*/
+@each $label, $color in $colors {
+  .border-c-#{$label} {
+    border-color: $color;
+  }
+  .border-tc-#{$label} {
+    border-top-color: $color;
+  }
+  .border-bc-#{$label} {
+    border-bottom-color: $color;
+  }
+  .border-lc-#{$label} {
+    border-left-color: $color;
+  }
+  .border-rc-#{$label} {
+    border-right-color: $color;
+  }
+}
+
+/*
+  Border width.
+*/
+
+@each $size in $outline-sizes {
+  .border-w-#{$size} {
+    border-width: $size;
+  }
+  .border-tw-#{$size} {
+    border-top-width: $size;
+  }
+  .border-rw-#{$size} {
+    border-right-width: $size;
+  }
+  .border-bw-#{$size} {
+    border-bottom-width: $size;
+  }
+  .border-lw-#{$size} {
+    border-left-width: $size;
+  }
+}
